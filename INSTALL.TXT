@@ -1,0 +1,16 @@
+INSTALLATION
+============
+
+For the most up to date installation instructions go to: 
+
+https://www.machform.com/installation
+
+
+
+
+UPGRADING
+=========
+
+If you are upgrading from previous versions go to:
+
+https://www.machform.com/upgrading-machform

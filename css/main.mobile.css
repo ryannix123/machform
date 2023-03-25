@@ -1,0 +1,332 @@
+@media only screen and (max-width : 480px) {
+	/** Main Layout **/
+	#container,#content,#content.full,#header_content,#main{
+		width: 100%;
+	}
+	/** Login Page **/
+	.login_page #container,.login_page #main,.login_page #content,#footer{
+		width: 100% !important;
+	}
+	#main,.post,#footer{
+		padding: 0px;
+	}
+	.login_page .post{
+		width: 100% !important;
+	}
+	.login_page li{
+		box-sizing: border-box;
+	}
+	.login_page #container{
+		margin-top: 0px;
+	}
+	.login_page .login_main{
+		padding: 15px;
+		box-sizing: border-box;
+	}
+	.login_page input.text{
+		padding: 5px 3px;
+		font-size: 16px;
+	}
+	#login_forgot_container{
+		float: left;
+		width: 100%;
+		margin-top: 10px;
+	}
+	#footer{
+		padding-top: 10px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	/** Navigation **/
+	#header{
+		margin-bottom: 0px;
+	}
+	#header_primary,#header_secondary{
+		width: auto;
+	}
+	#header_primary span, #header_secondary span {
+		font-size: 25px;
+	  }
+	#header_primary{
+		margin-left: 10px;
+	}
+	#header_primary a,#header_secondary a{
+		padding-top: 5px;
+	}
+	#header_secondary{
+		margin-left: 0px;
+		margin-right: 5px;
+		float: right;
+	}
+	#header_primary div{
+		width: 50px;
+		margin: 0 8px;
+	}
+	.nav_help,.nav_themes{
+		display: none;
+	}
+	#main{
+		padding-top: 20px;
+	}
+	#header_primary h6, #header_secondary h6{
+		font-size: 14px;
+	}
+	.content_header_title h2{
+		font-size: 180%;
+		line-height: 35px;
+	}
+	/** Form Manager **/
+	#logo{
+		display: none;
+	}
+	#button_import_form{
+		display: none;
+	}
+	#button_create_form{
+		display: none;
+	}
+	#mf_sort_pane{
+		float: left;
+	}
+	#mf_search_pane{
+		width: auto;
+	}
+	#mf_search_box.search_focused,#mf_search_box {
+		width: 230px;
+	}
+	.search_focused #filter_form_input, #filter_form_input {
+		width: 202px;
+	}
+	#filter_form_input{
+		padding: 0 0 0 25px;
+		font-size: 16px;
+	}
+	#mf_filters_toggle{
+		display: none;
+	}
+	#mf_filters_toggle2{
+		display: block !important;
+	}
+	#mf_form_list .form_tag{
+		display: none;
+	}
+	#mf_form_list .form_option,#mf_form_list li.form_selected .form_option,
+	#mf_form_list .form_option_separator, #mf_form_list li.form_selected .form_option_separator{
+		display: none;
+	}
+	#mf_form_list .form_option.fo_entries,#mf_form_list li.form_selected .form_option.fo_entries,
+	#mf_form_list .form_option.fo_notifications,#mf_form_list li.form_selected .form_option.fo_notifications,
+	#mf_form_list .form_option.fo_view,#mf_form_list li.form_selected .form_option.fo_view{
+		display: block;
+	}
+	.content_notification{
+		width: 90%;
+	}
+	.ui-dialog{
+		width: 100% !important;
+		left: 0px !important;
+	}
+	#mf_form_list .form_option a{
+		font-size: 15px;
+	}
+	.mf_link_info{
+		display: none;
+	}
+	/** Entries page **/
+	#ve_details{
+		width: 100%;
+	}
+	#entries_table td {
+		padding: 10px 5px;
+	}
+	#ve_actions {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	#ve_entry_actions{
+		margin-top: 10px;
+	}
+	#ve_entry_navigation a{
+		font-size: 43px;
+	}
+	#ve_entry_actions a{
+		font-size: 120%;
+	}
+	#ve_entry_actions li{
+		padding: 5px 0;
+	}
+	#ve_detail_table td,#ve_payment_info td,#ve_table_info td{
+		font-size: 16px;
+	}
+	#main_body input.text{
+		font-size: 16px !important;
+	}
+	#filter_pane{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+	}
+	#filter_add_a,.filter_delete_a{
+		font-size: 25px !important;
+	}
+	#filter_pane li.filter_settings{
+		overflow: auto;
+	}
+	#filter_pane li.filter_settings .filter_delete_a{
+		float: right;
+		width: fit-content;
+		margin-top: 25px;
+	}
+	#filter_pane li.filter_settings *{
+		float: left;
+		width: 80%;
+		margin-top: 10px;
+	}
+	#filter_info{
+		float: left;
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+	#entries_actions_arrow{
+		display: none;
+	}
+	.manage_entries input.text,.manage_entries select{
+		font-size: 16px;
+	}
+	#form_edit_url{
+		width: 95% !important;
+	}
+	#entries_table th.me_approval{
+		width: 70px;
+	}
+	#entries_table td.me_approval_controls{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#entries_table .button_deny{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	#entries_table .bb_button{
+		width: 50px;
+		text-align: center;
+		height: 25px;
+		line-height: 25px;
+	}
+	.dialog-form textarea.textarea,.dialog-form input.text{
+		font-size: 16px;
+	}
+	.ui-dialog-buttonpane button{
+		height: 35px;
+	}
+	#ve_approval_signatures{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	#ve_approval_signatures{
+		padding-bottom: 0px;
+	}
+	#ve_approval_final_status{
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+	#ve_table_info{
+		margin-top: 50px;
+	}
+	#ve_entry_actions {
+		margin-top: 25px;
+	}
+	.embed_code textarea.textarea,.payment_settings textarea.textarea, 
+	.notification_settings textarea.textarea,.logic_settings textarea.textarea,
+	.edit_widget textarea.textarea,.main_settings textarea.textarea,
+	.approval_settings textarea.textarea,#ve_details textarea.textarea,
+	.integration_gcal textarea.textarea{
+			font-size: 16px;
+	}
+	#view_entry_log_link{
+		display: inline-block;
+		margin-left: 0px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	/** Notifications page **/
+	.ns_box_main{
+		width: 100%;
+	}
+	#button_save_notification_div,#button_add_user_div{
+		float: right;
+		margin: 20px 0 10px 0;
+	}
+	.notification_settings input.text{
+		font-size: 16px;
+	}
+	select.select{
+		font-size: 16px;
+	}
+	/** Users page **/
+	.filter_keyword{
+		font-size: 16px;
+	}
+	#filter_pane li.filter_settings img{
+		width: auto;
+	}
+	#vu_details{
+		width: 100%;
+	}
+	.vu_perm_title .icon-document{
+		display: none;
+	}
+	#vu_privileges td,#vu_perm_header td,#vu_perm_body td,#ve_payment_info td,
+	#vu_security td{
+		padding: 2px;
+	}
+	.au_box_main,#au_box_permissions.au_box_main,#au_box_permissions .au_box_content,
+	#au_li_permissions,#au_li_permissions li,.au_box_meta{
+		width: 100%;
+	}
+	.au_box_main,.au_box_meta{
+		box-sizing: border-box;
+	}
+	.au_box_meta{
+		padding-bottom: 0px;
+	}
+	#au_li_permissions li{
+		box-sizing: border-box;
+	}
+	#au_li_permissions{
+		box-sizing: border-box;
+		padding: 15px;
+	}
+	.au_perm_controls label.choice,.add_user input.text{
+		font-size: 16px;
+	}
+	.au_box_content{
+		width: 100%;
+		box-sizing: border-box;
+		border-left: none;
+	}
+	#au_box_permissions .au_box_content{
+		padding-left: 0px;
+	}
+	#au_box_privileges .au_box_content{
+		padding-bottom: 10px;
+	}
+	/** Settings page **/
+	#ms_form,#license_box{
+		float: none;
+		width: 100%;
+	}
+	#license_box{
+		margin-top: 40px;
+	}
+	#ms_box_export_tool{
+		display: none;
+	}
+	.main_settings input.text{
+		font-size: 16px;
+	}
+	
+}

@@ -1,0 +1,10 @@
+The following library is used in MachForm:
+------------------------------------------
+
+Kendo UI Complete
+https://www.kendoui.com/purchase/license-agreement/kendo-ui-complete-commercial.aspx
+
+Copyright (c) 2011 - 2013 Telerik Inc. All rights reserved.
+
+------------------------------------------
+You are not allowed to disassemble, decompile or “unlock”, decode or otherwise reverse translate or engineer, or attempt in any manner to reconstruct or discover any source code or underlying algorithms of the Kendo UI library.

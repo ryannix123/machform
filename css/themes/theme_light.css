@@ -1,0 +1,165 @@
+/********************* Vibrant Orange ***************************/
+body{
+	background-color: #f2f3f3; /** gray **/
+}
+/** main header **/ 
+#header{
+	background-color: #6a6766; /* dark orange */
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#header_primary div.current_page_item,
+#header_primary div:hover,#header_secondary div:hover{
+	border-bottom: 3px solid #ffc83d; /** yellow **/
+}
+#header_primary a:hover,#header_secondary a:hover{
+	color: #ffc83d; /** yellow **/
+}
+/** search box **/
+#mf_search_box,#mf_search_title,#mf_search_tag{
+	background-color: #6a6766; /** dark orange **/ 
+}
+#mf_search_title a,#mf_search_tag a{
+	color: #ffc83d; /** yellow **/
+}
+#filtered_result_box,#result_set_show_more a{
+	background-color: #ffc83d; /** yellow **/
+	color: #000;
+}
+#result_set_show_more a:hover{
+	background-color: #ffce51; /** light yellow **/
+}
+#save_filter{
+	color: #000;
+}
+/** form bars **/
+#mf_form_list li .middle_form_bar,
+#mf_folder_list li .middle_folder_bar{
+	background-color: #8a8584; /* light green */
+}
+#mf_form_list li .middle_form_bar:hover,
+#mf_form_list .form_option:hover{
+	background-color: #afabaa; /* lighter green */
+}
+#mf_form_list .form_option_separator{
+	border-left: 2px solid #afabaa; /* lighter green*/
+}
+#mf_form_list li .bottom_form_bar{
+	background-color: #7a7574; /* dark green */
+	border-top: 1px solid #afabaa; /* lighter green */
+}
+/** form bar total/today entries counter **/
+#mf_form_list .form_meta .form_stat{
+	background-color: #a4373a; /* red */
+}
+#mf_form_list .form_meta .form_stat.form_stat_total{
+	background-color: #7a7574; /* dark green */
+}
+/** form bar tags **/
+#mf_form_list ul.form_tag_list li{
+	color: #fff; 
+	background-color: #6a6766; /** dark orange **/ 
+}
+#mf_form_list a.removetag{
+	color: #fff;
+}
+/** form bar popup items **/
+.form_action_item:hover,#mf_sort_pane_list a:hover{
+	background-color: #afabaa; /* lighter green */
+}
+/** smart folders **/
+#smart_folder_list li.selected_folder{
+	background-color: #8a8584; /* light green */
+}
+#active_folder_name{
+	background-color: #ffc83d; /** yellow **/
+}
+#mf_folder_list li.folder_move_highlight .middle_folder_bar {
+  	background-color: #ffc83d; /** yellow **/
+}
+#folder_condition_pane li{
+	background-color: #d2d0ce; /* light gray */
+	border: none;
+}
+/** add/remove folders icon **/
+#smart_folder_list li:not(.smart_folder_header):hover{
+	background-color: #afabaa; /* lighter green */
+}
+/** folder toggle button and sort pane button **/
+#mf_filters_toggle_button,#mf_filters_toggle2_button,#mf_sort_pane_button{
+	background-color: #6a6766; /* orange */
+}
+/** buttons **/
+.button_primary{
+	background-color: #5a9117; /* light green */
+	color: #fff;
+}
+.button_primary:hover{
+	background-color: #85b44c; /* lighter green */
+}
+/** card panels **/
+.content_card_primary{
+	background-color: #f3f2f1; /* light gray */
+}
+/** form editor **/
+#social li a:link,#social li a:visited {background-color:#8a8584}  
+#social li{
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: #afabaa; 
+}
+#btn_add_field > a,#btn_field_properties > a,#btn_form_properties > a,
+#btn_add_field,#btn_field_properties,#btn_form_properties{
+	background: none repeat scroll 0 0 #8a8584;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#btn_add_field,#btn_field_properties,#btn_form_properties{
+	border-top: 3px solid #fff !important;
+}
+#btn_add_field.ui-tabs-selected,#btn_field_properties.ui-tabs-selected,#btn_form_properties.ui-tabs-selected{
+	border-top: 3px solid #ffc83d !important;
+}
+#field_properties_pane,#form_properties_pane{
+	background-color: #8a8584;
+}
+#element_properties_form,#form_properties_holder,#element_inactive_msg{
+	background-color: #edebe9;
+}
+#bottom_bar{
+	background-color: #edebe9;
+}
+.bottom_bar_white{
+	background-color: #fff !important;
+}
+#main_body form#form_builder_preview li.highlighted{
+	background-color: #edebe9 !important;
+	border: 1px solid #8a8584 !important;
+}
+#form_builder_sortable li:hover{
+	border: 1px dotted #ffc83d;
+	background-color: #edebe9;
+}
+#sidebar label.desc,#sidebar label.description{
+	color: #000;
+}
+.login_page #main{
+	border-top: 5px solid #696665;
+}
+.helpicon{
+	color: #5a9117;
+}
+.gradient_blue .helpicon{
+   color: #3968A1;
+}
+.gradient_red .helpicon{
+   color: #BF3C15;
+}
+#dropui_theme_options a.dropui-tab{
+    padding: 7px !important;
+    border-radius: 2px;
+}
+.dropui-pink .dropui-tab { background-color: #d4670f; color: #FFF;}
+.dropui-pink:hover .dropui-tab { background-color: #d4670f; }
+.dropui-pink:hover .dropui-content { border-color: #d4670f; }
+.dropui-pink.dropui-menu .dropui-content { background-color: #d4670f; }

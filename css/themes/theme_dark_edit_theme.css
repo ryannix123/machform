@@ -1,0 +1,122 @@
+/********************* Dark ***************************/
+body{
+	background-color: #303234; /** gray **/
+}
+#main{
+	background-color: #36383A;
+	border: 1px solid #4F5152;
+}
+.post,.content_body{
+	background-color: #36383A;
+	color: #E0E1E1;
+}
+/** main header **/ 
+#header{
+	background-color: #1E2022; /* dark orange */
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+#header_primary div.current_page_item,
+#header_primary div:hover,#header_secondary div:hover{
+	border-bottom: 3px solid #ffc83d; /** yellow **/
+}
+#header_primary a,#header_secondary a,
+#header_primary a:visited,#header_secondary a:visited{
+	color: #DDDEDE;
+}
+#header_primary a:hover,#header_secondary a:hover{
+	color: #ffc83d; /** yellow **/
+}
+/** buttons **/
+.button_primary{
+	background-color: #5a9117; /* light green */
+	color: #fff;
+}
+.button_primary:hover{
+	background-color: #85b44c; /* lighter green */
+}
+/** dialog **/
+.ui-widget-overlay{
+	opacity: 0.7;
+	background: none !important;
+	background-color: #36383A !important;
+}
+.ui-dialog{
+	background-color: #4F5152 !important;
+}
+.ui-dialog .ui-dialog-buttonpane{
+	background-color: #4F5152 !important;
+    border-top: 1px solid #78797A !important;
+}
+.ui-dialog .ui-dialog-content{
+	background-color: #66676A !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #66676A;
+}
+.ui-dialog .ui-dialog-title,.dialog-form .infomessage{
+	color: #E0E1E1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.icon-info,.ui-widget-content,.ui-dialog span.icon-checkmark-circle,
+.ui-dialog span.icon-key{
+	color: #E0E1E1 !important;
+}
+#form-imported-link{
+	color: #E0E1E1 !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#ui-dialog-title-dialog-message,#ui-dialog-title-dialog-warning{	
+	color: #E0E1E1;
+}
+.ui-dialog span.icon-bubble-notification,
+.ui-dialog span.icon-checkmark-circle,
+.ui-dialog span.icon-key{
+	color: #E0E1E1;
+}
+#confirm_form_delete_name{
+	color: #fff;
+}
+.btn_secondary_action{
+	color: #fff !important;
+}
+.ui-dialog-content label.description{
+	color: #E0E1E1 !important;
+}
+.dialog-form textarea.textarea,.dialog-form input.text{
+	background-color: #484749;
+	border-radius: 2px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #fff;
+}
+.dialog-form select.select,#me_sort_option select.select{
+	background-color: #636466;
+	border: 1px solid #4F5152;
+	color: #fff;
+	border-radius: 2px;
+	padding: 5px !important;
+	box-sizing: border-box;
+}
+.breadcrumb{
+	color: #E0E1E1 !important;
+	border-bottom: 1px dotted #ffc83d;
+}
+h2 a.breadcrumb:hover{
+	color: #ffc83d !important;
+}
+#footer .copyright{
+	color: #E0E1E1;	
+}
+#footer a:link,
+#footer a:visited  {
+	color: #fff;
+}
+#dropui_theme_options a.dropui-tab{
+    padding: 7px !important;
+    border-radius: 2px;
+}
+.dropui-pink .dropui-tab { background-color: #66676A; color: #FFF;}
+.dropui-pink:hover .dropui-tab { background-color: #1E2022; }
+.dropui-pink:hover .dropui-content { border-color: #1E2022; }
+.dropui-pink.dropui-menu .dropui-content { background-color: #1E2022; }

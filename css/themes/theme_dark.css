@@ -1,0 +1,770 @@
+/********************* Dark ***************************/
+body{
+	background-color: #303234; /** gray **/
+}
+#main{
+	background-color: #36383A;
+	border: 1px solid #4F5152;
+}
+.post,.content_body{
+	background-color: #36383A;
+	color: #E0E1E1;
+}
+/** main header **/ 
+#header{
+	background-color: #1E2022; /* dark orange */
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+#header_primary div.current_page_item,
+#header_primary div:hover,#header_secondary div:hover{
+	border-bottom: 3px solid #ffc83d; /** yellow **/
+}
+#header_primary a,#header_secondary a,
+#header_primary a:visited,#header_secondary a:visited{
+	color: #DDDEDE;
+}
+#header_primary a:hover,#header_secondary a:hover{
+	color: #ffc83d; /** yellow **/
+}
+/** search box **/
+#mf_search_box,#mf_search_title,#mf_search_tag{
+	background-color: #1E2022; /** dark orange **/ 
+}
+#mf_search_title a,#mf_search_tag a{
+	color: #ffc83d; /** yellow **/
+}
+#filtered_result_box,#result_set_show_more a{
+	background-color: #ffc83d; /** yellow **/
+	color: #000;
+}
+#result_set_show_more a:hover{
+	background-color: #ffce51; /** light yellow **/
+}
+#save_filter{
+	color: #000;
+}
+#filter_form_input{
+	border: 1px solid #BEBEBE;
+	color: #BEBEBE;
+}
+#filtered_result_none{
+	color: #E0E1E1;
+}
+/** form bars **/
+#mf_form_list li .middle_form_bar,
+#mf_folder_list li .middle_folder_bar{
+	background-color: #464646; /* light green */
+	border: 1px solid #4F5152;
+	border-bottom: none;
+}
+#mf_form_list li .middle_form_bar:hover,
+#mf_form_list .form_option:hover{
+	background-color: #66686A; /* lighter green */
+}
+#mf_form_list .form_option_separator{
+	border-left: 2px solid #85b44c; /* lighter green*/
+}
+#mf_form_list li .bottom_form_bar{
+	background-color: #1E2022; /* dark green */
+	border: 1px solid #4F5152; /* lighter green */
+	border-top: none; /* lighter green */
+
+}
+#mf_form_list .form_option a {
+	color: #BEBEBE;
+}
+/** form bar total/today entries counter **/
+#mf_form_list .form_meta .form_stat{
+	background-color: #a4373a; /* red */
+}
+#mf_form_list .form_meta .form_stat.form_stat_total{
+	background-color: #498205; /* dark green */
+}
+/** form bar tags **/
+#mf_form_list ul.form_tag_list li{
+	color: #fff; 
+	background-color: #1E2022; /** dark orange **/ 
+}
+#mf_form_list a.removetag{
+	color: #fff;
+}
+/** form bar popup items **/
+.form_action_item:hover,#mf_sort_pane_list a:hover{
+	background-color: #85b44c; /* lighter green */
+}
+/** smart folders **/
+#smart_folder_list li.selected_folder{
+	background-color: #5a9117; /* light green */
+}
+#active_folder_name{
+	background-color: #ffc83d; /** yellow **/
+	color: #000;
+}
+#mf_folder_list li.folder_move_highlight .middle_folder_bar {
+  	background-color: #ffc83d; /** yellow **/
+}
+#smart_folder_container{
+	border: 1px solid #4F5152;
+}
+#folder_condition_pane li{
+	background-color: #d2d0ce; /* light gray */
+	border: none;
+}
+/** add/remove folders icon **/
+#smart_folder_list li:not(.smart_folder_header):hover{
+	background-color: #85b44c; /* lighter green */
+}
+/** folder toggle button **/
+#mf_filters_toggle_button,#mf_filters_toggle2_button,#mf_sort_pane_button{
+	background-color: #66676A; /* orange */
+}
+/** buttons **/
+.button_primary{
+	background-color: #5a9117; /* light green */
+	color: #fff;
+}
+.button_primary:hover{
+	background-color: #85b44c; /* lighter green */
+}
+/** tooltip **/
+.tippy-tooltip{
+	background-color: #1E2022 !important;
+	border: 1px solid #4F5152 !important;
+}
+.tippy-arrow{
+	border-bottom-color: #1E2022 !important;
+	border-top-color: #1E2022 !important;
+}
+/** dialog **/
+.ui-widget-overlay{
+	opacity: 0.7;
+	background: none !important;
+	background-color: #36383A !important;
+}
+.ui-dialog{
+	background-color: #4F5152 !important;
+}
+.ui-dialog .ui-dialog-buttonpane{
+	background-color: #4F5152 !important;
+    border-top: 1px solid #78797A !important;
+}
+.ui-dialog .ui-dialog-content{
+	background-color: #66676A !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #66676A;
+}
+.ui-dialog .ui-dialog-title,.dialog-form .infomessage{
+	color: #E0E1E1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.icon-info,.ui-widget-content,.ui-dialog span.icon-checkmark-circle,
+.ui-dialog span.icon-key{
+	color: #E0E1E1 !important;
+}
+#form-imported-link{
+	color: #E0E1E1 !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#ui-dialog-title-dialog-message,#ui-dialog-title-dialog-warning,
+#ui-dialog-title-dialog-confirm-field-delete,#ui-dialog-title-dialog-insert-choices,
+#ui-dialog-title-dialog-confirm-choice-delete,#ui-dialog-title-dialog-confirm-encryption-disable,
+#ui-dialog-title-dialog-insert-matrix-rows,#ui-dialog-title-dialog-insert-matrix-columns,
+#ui-dialog-title-dialog-delete-theme,#ui-dialog-title-dialog-confirm-form-delete,
+#ui-dialog-title-dialog-confirm-filter-delete,#ui-dialog-title-dialog-confirm-integration-delete,
+#ui-dialog-title-dialog-confirm-entry-delete,#ui-dialog-title-dialog-change-password,
+#ui-dialog-title-dialog-change-license,#ui-dialog-title-dialog-confirm-user-suspend,
+#ui-dialog-title-dialog-confirm-user-delete,#ui-dialog-title-dialog-share-theme,
+#ui-dialog-title-dialog-unshare-theme,#ui-dialog-title-dialog-delete-widget,
+#ui-dialog-title-dialog-share-report,#ui-dialog-title-dialog-unshare-report,
+#ui-dialog-title-dialog-form-saved,#ui-dialog-form-import-success,
+#ui-dialog-title-dialog-confirm-entry-status,#ui-dialog-title-dialog-reset-entry-number,
+#ui-dialog-title-dialog-get-new-update{	
+	color: #E0E1E1;
+}
+.ui-dialog span.icon-bubble-notification,
+.ui-dialog span.icon-checkmark-circle,
+.ui-dialog span.icon-key{
+	color: #E0E1E1;
+}
+#confirm_form_delete_name{
+	color: #fff;
+}
+.btn_secondary_action{
+	color: #fff !important;
+}
+.ui-dialog-content label.description{
+	color: #E0E1E1 !important;
+}
+.dialog-form textarea.textarea,.dialog-form input.text{
+	background-color: #484749;
+	border-radius: 2px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #fff;
+}
+.dialog-form select.select,#me_sort_option select.select{
+	background-color: #636466;
+	border: 1px solid #4F5152;
+	color: #fff;
+	border-radius: 2px;
+	padding: 5px !important;
+	box-sizing: border-box;
+}
+/** form editor **/
+#social li a:link,#social li a:visited {
+	background-color:#333333;
+}  
+#social li{
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: #4F5152; 
+}
+#btn_add_field > a,#btn_field_properties > a,#btn_form_properties > a,
+#btn_add_field,#btn_field_properties,#btn_form_properties{
+	background: none repeat scroll 0 0 #4f5152;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#btn_add_field{
+	background-color: #4F5152;
+}
+#btn_add_field > a{
+	background-color: #333333;
+}
+#btn_add_field,#btn_field_properties,#btn_form_properties{
+	border-top: 3px solid #36383a !important;
+}
+#btn_add_field.ui-tabs-selected,#btn_field_properties.ui-tabs-selected,#btn_form_properties.ui-tabs-selected{
+	border-top: 3px solid #ffc83d !important;
+}
+#field_properties_pane,#form_properties_pane{
+	background-color: #4f5152;
+}
+#element_properties_form,#form_properties_holder,#element_inactive_msg{
+	background-color: #66676a;
+}
+#bottom_bar{
+	background-color: #4f5152;
+}
+.bottom_bar_white{
+	background-color: #36383a !important;
+}
+#main_body form li.highlighted,
+#form_header h2.highlighted, #form_header p.highlighted {
+	background-color: #66676a !important;
+	border: 1px solid #ffc83d !important;
+}
+#form_builder_sortable li:hover,#form_header p:hover,#form_header :hover{
+	border: 1px dotted #66676a;
+	background-color: #66676a;
+}
+#sidebar label.desc,#sidebar label.description{
+	color: #E0E1E1;
+}
+.helpicon{
+	color: #E0E1E1 !important;
+}
+#social li#btn_single_line_text,#social li#btn_paragraph_text,#social li#btn_multiple_choice,#social li#btn_name,
+#social li#btn_time,#social li#btn_address,#social li#btn_price,#social li#btn_matrix,#social li#btn_section_break,
+#social li#btn_signature{
+	border-left-width: 1px;
+}
+#social li#btn_signature,#social li#btn_media{
+	border-bottom-width: 1px;
+}
+/** form editor preview **/
+#form_header h2, #form_header p{
+	border: 1px solid #36383a;
+}
+#form_builder_sortable li{
+	border: 1px solid #36383a;
+}
+.integrated *,#main_body form li label.description, #main_body form li span.description,
+#main_body label.choice,#main_body form li span label,#main_body .matrix caption,
+#main_body .matrix td.first_col,#main_body form li div span.label,
+#prop_default_value_text strong,#main_body form li:not(.media_video) span,
+#prop_rating_style label span{
+	color: #E0E1E1 !important;
+}
+.bb_button.bb_grey {
+    background-color: #5a9117 !important;
+    box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+.bb_button.bb_red {
+    box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+.bb_button.bb_blue {
+    background-color: #0080FF !important;
+    box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+.bb_button.bb_blue:hover{
+	box-shadow: none;
+}
+#main_body .matrix tr.alt{
+	background-color: #66676a;
+}
+#main_body .matrix th{
+	border-color: #E0E1E1;
+}
+#main_body .matrix tbody tr:hover td
+{
+	background-color: #66676a !important;
+}
+#all_form_properties fieldset,#all_properties fieldset{
+  border: 1px solid #303234 !important;
+}
+#all_properties legend, #all_form_properties legend{
+  background-color: #1e2022;
+  border: 1px solid #1e2022;
+}
+#all_properties textarea,#all_properties input.text,#all_properties select,
+#all_form_properties textarea,#all_form_properties input.text,#all_form_properties select { 
+  border: 1px solid #c3c3c3;
+  background-color: #1e2022;
+  color: #E2E2E2;
+}
+#all_form_properties a:link,#all_form_properties a:visited,#all_form_properties a:hover,
+#all_properties a:link,#all_properties a:visited,#all_properties a:hover{
+	color: #83c129;
+}
+#element_inactive_msg .icon-arrow-left,#element_inactive_msg h3{
+	color: #83c129 !important;
+}
+#element_properties .num{
+	color: #fff;
+}
+#main_body input.text,#main_body textarea.textarea,#main_body select.select
+{
+	border: 1px solid #c3c3c3 !important;
+	border-radius: 3px !important;
+	background-color: #1e2022 !important;
+}
+.payment_settings input.text, .notification_settings input.text,.notification_settings select.select,.main_settings input.text,
+.add_user input.text,.edit_folder input.text,.logic_settings input.text,.add_widget input.text,.edit_widget input.text,
+.manage_entries input.text, .approval_settings input.text, .integration_gcal input.text,#filter_pane select.select,
+.embed_code textarea.ec_code_data,.embed_code select.select,.payment_settings select.select,
+.logic_settings input.text,.logic_settings select.select,.integration_gcal select.select,
+.add_widget select.select,.edit_widget select.select,.edit_widget input.text,
+.approval_settings select.select,.approval_settings input.text,.add_user select.select,
+.main_settings input.text,.main_settings select.select
+{
+	background: none;
+	border: 1px solid #c3c3c3 !important;
+	border-radius: 3px !important;
+	background-color: #1e2022 !important;
+	color: #E0E1E1 !important;
+}
+#filter_pane input.text{
+	padding-left: 5px;
+}
+#filter_pane select.select{
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+#main_body select.select{
+	height: 30px;
+}
+#all_properties a.del_choice:link,
+#all_properties a.del_choice:visited,
+#all_properties a.trash_choice:link,
+#all_properties a.trash_choice:visited{
+	color: #ec5c49;
+}
+.buttons_bar span.arrow-field-prop,#selected_field_image,
+#form_manager_empty,#entries_manager_empty,#access_denied_body,#report_manager_empty,
+.breadcrumb_arrow{
+	color: #ffc83d;
+}
+.breadcrumb{
+	color: #E0E1E1 !important;
+	border-bottom: 1px dotted #ffc83d;
+}
+h2 a.breadcrumb:hover{
+	color: #ffc83d !important;
+}
+#footer .copyright{
+	color: #E0E1E1;	
+}
+#footer a:link,
+#footer a:visited  {
+	color: #fff;
+}
+#editor_loading{
+	background-color: #ffc83d;
+}
+.content_notification{
+	border-radius: 0px !important;
+	color: #E0E1E1;
+}
+.gradient_blue,.gradient_red,.gradient_green{
+	background-image: none;
+	background-color: #66676A; 
+}
+#ve_details .alt, #vu_details .alt {
+    background-color: #474749 !important;
+}
+#ve_detail_table td, #ve_table_info td, #vu_privileges td, #vu_perm_header td, #vu_perm_body td, #ve_payment_info td, #vu_security td {
+    border-bottom: 1px solid #555;
+}
+#ve_payment_info .payment_details_header, #ve_table_info .entry_info_header,#ve_approval_info h6,
+#ve_details strong.ahb_approver_no {
+    color: #E0E1E1;
+}
+#ps_box_merchant_settings label.description, #ps_box_payment_options label.description, #ps_box_define_prices label.description, 
+#as_box_approvers label.description, #ns_box_myinbox label.description, #ns_box_user_email label.description, #ms_box_account label.description, 
+#ms_box_smtp label.description, #ms_box_ldap label.description, #ms_box_misc label.description, #au_box_user_profile label.description, 
+#ms_box_export_tool label.description, #aw_box_select_widget label.description, #aw_box_select_field label.description, 
+#aw_box_widget_settings label.description, #ls_box_field_rules label.description, #ls_box_page_rules label.description, 
+#ns_box_url_notification label.description, #ew_box_widget_data label.description, #ew_box_widget_options label.description, 
+#ew_box_widget_size label.description, #ms_box_user_tsv label.description, #ve_box_email_more label.description, 
+#as_box_approval_settings label.description, #ve_details label.description, .integration_gcal label.description, .tsv_setup_title,
+.approval_history_spacer,#li_grid_columns h6, #li_grid_sorting h6 ,.approver_rules h6,#au_bulk_info{
+    color: #E0E1E1;
+}
+#add_user_bulk_link{
+	color: #E0E1E1 !important;
+}
+#li_grid_columns h6, #li_grid_sorting h6{
+	border-color: #E0E1E1;
+}
+#ve_approval_final_status {
+    background-color: #1E2022;
+    border-radius: 2px;
+}
+textarea.textarea, .payment_settings textarea.textarea, .notification_settings textarea.textarea, 
+.logic_settings textarea.textarea, .edit_widget textarea.textarea, .main_settings textarea.textarea, .approval_settings textarea.textarea, 
+#ve_details textarea.textarea, .integration_gcal textarea.textarea,#au_user_bulk_data{
+	background: none;
+	background-color: #1e2022;
+	border: 1px solid #c3c3c3;
+	color: #E2E2E2;
+}
+#ve_entry_actions a,#ve_entry_navigation a,
+span.vu_checkbox_icon,span.vu_nopriv_icon ,span.vu_perm_checkbox,.vu_perm_title .icon-document,label.change-password{
+    color: #DDDEDE;
+}
+#ve_entry_actions a:hover{
+	color: #ffc83d;
+}
+.approval_history_box{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 1px;
+}
+#more_option_email_entry{
+	border-bottom: 1px dotted #ffc83d;
+	color: #fff !important;
+}
+#entries_table .alt {
+    background-color: #474749 !important;
+}
+#entries_table th{
+	background-color: #1E2022;
+}
+#entries_table tbody tr:hover td,#entries_table .me_row_selected{
+	 background-color: #66686A !important;
+}
+.entries_select_all,#entries_table tbody tr.entries_select_all:hover td{
+	background-color: #323234 !important;
+}
+.entries_select_all a {
+    border-bottom: 1px dotted #FFC926 !important;
+    color: #fff !important;
+}
+#entries_table td{
+	border-bottom: 1px solid #66686A;
+}
+#entries_options a,#entries_actions a{
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+	color: #dedede;
+}
+#entries_options,#entries_actions{
+	border-radius: 2px;
+}
+#entries_actions_arrow{
+	display: none;
+}
+#entries_actions .vline_separator,#entries_options .vline_separator{
+	border-left: 1px dotted #fff;
+}
+.ui-widget-content a.export_link{
+	color: #dedede;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#field_selection h6, #filter_pane h6, #widget_filter_pane h6, #gsheets_field_selection h6, #gcal_settings h6, #folder_condition_pane h6{
+	color: #dedede;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px dashed #dedede;
+}
+#field_selection_apply, #filter_pane_apply, #gsheets_field_selection_apply{
+	border-top: 1px dashed #dedede;
+}
+#field_selection_cancel, #filter_pane_cancel, #report_sort_pane_cancel{
+	color: #dedede;
+}
+#me_sort_option label {
+    color: #dedede;
+}
+#filter_pane li, #widget_filter_pane li {
+    background-color: #474749;
+    border: 1px solid #474749;
+}
+.edit_folder .content_card{
+	background-color: #464646;
+	border: 1px solid #4F5152;
+	border-bottom: none;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 0px;
+}
+.edit_folder .content_card label.description{
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#folder_condition_pane h6{
+	color: #fff !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#folder_condition_pane li {
+    background-color: #66676A;
+}
+.edit_folder .content_card a{
+	color: #fff;
+}
+.pane-arrow-up{
+	color: #fff;
+}
+#filter_pane a:link,#filter_pane a:visited,#filter_pane a:hover{
+	color: #fff;
+}
+#filter_info, #mr_report_shared{
+	background-color: #1E2022;
+}
+#filter_no_results h3 {
+    color: #FFC926;
+}
+#me_sort_option label{
+	line-height: 25px;
+}
+.ve_resume_link{
+	color: #FFC926 !important;
+	border-bottom: 1px dotted #FFC926;
+}
+#ns_box_myinbox .ns_box_more_switcher a,
+#ns_box_myinbox .ns_temp_vars a,
+#ns_box_user_email .ns_box_more_switcher a,
+#ns_box_user_email .ns_temp_vars a,
+#ns_box_url_notification .ns_box_more_switcher a,
+#ns_box_url_notification .ns_temp_vars a,
+a.blue_dotted,#ec_php_download a,
+#ls_box_email_rules .ns_temp_vars a,
+#ls_box_webhook_rules .ns_temp_vars a,
+#ls_box_success_rules .ns_temp_vars a,
+#ms_box_misc .ms_box_more_switcher a{
+	border-bottom: 1px dotted #FFC926 !important;	
+	color: #FFC926 !important;
+}
+.ls_email_rules_custom_template_head{
+	display: none;
+}
+#ec_php_download {
+	border: 1px dashed #FFC926;
+}
+.ns_url_add_param a:link,.ns_url_add_param a:hover,.ns_url_add_param a:visited,
+.ns_param_control a:link,.ns_param_control a:hover,.ns_param_control a:visited,
+.ps_box_main a:link,.ps_box_main a:hover,.ps_box_main a:visited{
+	color: #E0E1E1;
+}
+.gradient_blue a#close_notification,.gradient_red a#close_notification{
+	color: #ffffff;
+}
+#ns_box_myinbox label.choice,
+#ls_box_field_rules label.choice,
+#ns_box_user_email label.choice,
+#ls_box_page_rules label.choice,
+#ms_box_user_tsv label.choice,
+#ls_box_email_rules label.choice,
+#ns_box_url_notification label.choice,
+#ls_box_success_rules label.choice,
+#ls_box_webhook_rules label.choice,
+#ls_box_success_rules label.choice,
+#ec_main_code_content label.choice,
+#ec_main_code_meta,#ec_options label.description,#ec_information,
+.ps_box_meta,.au_box_meta,.aw_box_meta,.ew_box_meta,.as_box_meta,
+#ps_box_payment_options .ps_box_meta,
+#au_box_privileges .au_box_meta,
+#aw_box_select_field .aw_box_meta,
+#ew_box_widget_options .ew_box_meta,
+#as_box_approvers .as_box_meta,
+#ps_box_define_prices .ps_box_meta,
+#au_box_permissions .au_box_meta,
+#aw_box_widget_settings .aw_box_meta,
+#ew_box_widget_size .ew_box_meta,
+#ps_field_assignment thead tr td,
+.ps_arrow .spacer-icon,
+#ps_box_price_fields strong,
+#ls_box_field_rules strong,
+#ls_box_page_rules strong,
+#ls_box_email_rules strong,
+#ls_box_webhook_rules strong,
+#ls_box_success_rules strong,
+#ls_box_success_rules label.description,
+#integration_connect_gsheet_body .success_icon,
+#integration_connect_gsheet_body .success_message,
+.integration_panel h5,.integration_panel h1,
+#aw_select_field_info,.au_perm_title,.au_perm_controls,.au_perm_arrow,.vu_title,#vu_log,
+#ms_box_account label.choice,
+#ms_box_smtp label.choice,
+#ms_box_ldap label.choice,
+#ms_box_misc label.choice,
+#ms_box_export_tool label.choice,#license_box_table th
+{
+	color: #E0E1E1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#ms_box_smtp .ms_box_email,#ms_box_account .ms_box_email,
+#ms_box_ldap .ms_box_email,
+#ms_box_misc .ms_box_email,
+#ms_box_misc .ms_box_more,
+#ms_box_user_tsv .ms_box_email,
+#ms_box_export_tool .ms_box_email{
+	border-color: #ccc;
+}
+#au_li_permissions li,.au_perm_title{
+	border-color: #E0E1E1;
+}
+.integration_config a:hover,.integration_config a:visited,.integration_config a:link,
+.integration_gcal .icon-settings{
+ 	color: #E0E1E1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+td.vu_permission_header{
+	background-color: #66676A;
+}
+.logic_settings h6,
+.ls_email_rules_custom_template_body label.description, .ls_webhook_options_body label.description
+{
+	color: #E0E1E1 !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#ls_email_add_rule_div a,#ls_webhook_add_rule_div a,#ls_success_add_rule_div a{
+	color: #E0E1E1 !important;
+	border-color: #E0E1E1 !important;
+}
+.ls_box_content{
+	border-top: 1px dashed #ccc !important;
+}
+.gradient_blue .ls_box_content a:link,.gradient_blue .ls_box_content a:hover,.gradient_blue .ls_box_content a:visited,
+.gradient_blue .ew_box_content a:link,.gradient_blue .ew_box_content a:hover,.gradient_blue .ew_box_content a:visited,
+.approver_action a:link, .approver_action a:hover, .approver_action a:visited,
+.as_approver_rules_conditions a:link,.as_approver_rules_conditions a:hover,.as_approver_rules_conditions a:visited{
+	color: #ccc;
+}
+.gradient_red .ls_box_content a:link,.gradient_red .ls_box_content a:hover,.gradient_red .ls_box_content a:visited{
+	color: #ccc;
+}
+.gradient_green .ls_box_content a:link,.gradient_green .ls_box_content a:hover,.gradient_green .ls_box_content a:visited{
+	color: #ccc;
+}
+#ls_field_rules_group > li,
+#ls_page_rules_group > li,
+#ls_email_rules_group > li,
+#ls_webhook_rules_group > li,
+#ls_success_rules_group > li,
+.logic_settings thead tr td{
+	border-color: #ccc !important;
+}
+.ls_field_rules_conditions li,
+.ls_page_rules_conditions li, 
+.as_approver_rules_conditions li,
+.ls_email_rules_conditions li, 
+.ls_webhook_rules_conditions li, 
+.ls_success_rules_conditions li,
+.ls_email_rules_custom_template_body, .ls_webhook_options_body {
+    background-color: #4F5152;
+    border: 1px solid #4F5152;
+}
+.ls_webhook_options_head{
+	display: none;
+}
+#ns_box_myinbox .ns_box_email,#ns_box_myinbox .ns_box_more,
+#ns_box_user_email .ns_box_email,#ns_box_user_email .ns_box_more,
+#ns_box_user_email .ns_box_email,#ns_box_url_notification .ns_box_content{
+	border-top: 1px dashed #cccccc;
+}
+#ns_box_url_notification .clearfix{
+	border-bottom: 1px dashed #cccccc !important;
+}
+.ns_url_add_param{
+	border-top: 1px dashed #cccccc !important;
+}
+#ns_box_user_email label.description.no_email_available,#ps_stripe_info,
+#ps_box_price_fixed_amount_div p, #ps_box_price_variable_amount_div p,.au_perm_guide{
+	color: #E0E1E1;
+}
+#ps_field_assignment li,
+#ps_box_payment_options .ps_box_content,
+#as_box_approvers .as_box_content,
+#au_box_privileges .au_box_content,
+#aw_box_select_field .aw_box_content,
+#ew_box_widget_options .ew_box_content,
+#ps_box_define_prices .ps_box_content,
+#au_box_permissions .au_box_content,
+#aw_box_widget_settings .aw_box_content,
+#ps_paypal_options,#ps_optional_settings,
+#ps_stripe_options,#ps_check_options,
+#ps_authorizenet_options,#ps_paypal_rest_options,
+#ps_braintree_options,#ps_field_assignment thead tr td,
+#ew_show_title_div,#ew_show_labels_div,
+#ew_show_legend_div,#ew_show_tooltip_div,
+#approvers_list > li,#approvers_list .approver_no,
+#approvers_list .approver_rules{
+	border-color: #cccccc;
+}
+.ps_box_content,.au_box_content,
+.aw_box_content,.ew_box_content,
+.as_box_content{
+	border-left: 1px dashed #cccccc;
+}
+.manage_report iframe{
+	background-color: #E0E1E1;
+}
+#mr_report_list a,.report_toolbar span.chart_idnum,#widget_list_sortable li,#approvers_list .approver_no,
+.login_page h3{
+	color: #E0E1E1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#mr_report_list a:hover{
+	color: #ffc83d;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.blue_box{
+	background-color: #1E2022;
+}
+a.as_add_approver_logic:link, a.as_add_approver_logic:visited{
+	color: #E0E1E1;
+	border-color: #ffc83d;
+}
+.gradient_red.content_notification,#au_box_user_profile label.description.label_red,.au_error_span,#ms_box_user_tsv a.app_link{
+	color: #FFC926 !important;
+}
+.login_page #main{
+	border-top: 5px solid #fff;
+}
+#login_logo,.login_page label.desc{
+	color: #E0E1E1;
+}
+#admin_forgot_label{
+	color: #FFC926;
+}
+#no_fields_notice{
+	border-color: #ffc83d;
+}
+#no_fields_notice h3, .no_fields_in_page h3{
+	color: #E0E1E1; 
+}
+#div_form_allow_edit_completed_entry{
+	border-color: #ffc83d;
+}

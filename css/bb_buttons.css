@@ -1,0 +1,246 @@
+.bb_button{
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	font-family: 'globerbold',HelveticaNeue, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	padding: 5px 15px;
+	color: #555;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+	
+	background: #f5f5f5;
+	
+	border: 1px solid #dedede;
+	border-color: #dedede #d8d8d8 #d3d3d3;
+	
+	border-radius: 2px;
+	box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #fbfbfb;
+}
+
+.bb_button:hover, .bb_button:focus{
+	color: #555;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e9e9e9));
+	background: -moz-linear-gradient(top, #f9f9f9, #e9e9e9);
+	border-color: #ccc;
+	-webkit-box-shadow: 0 2px 1px #e0e0e0, inset 0 1px 0 #fbfbfb;
+	-moz-box-shadow: 0 2px 1px #e0e0e0, inset 0 1px 0 #fbfbfb;
+	box-shadow: 0 1px 2px #e0e0e0, inset 0 1px 0 #fbfbfb;
+	text-decoration: none;
+}
+
+.bb_button:active{
+	position: relative;
+	top: 1px;
+	
+	color: #555;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#f4f4f4));
+	background: -moz-linear-gradient(top, #eaeaea, #f4f4f4);
+	border-color: #c6c6c6;
+	-webkit-box-shadow: 0 1px 0 #fff, inset 0 0 5px #ddd;
+	-moz-box-shadow: 0 1px 0 #fff, inset 0 0 5px #ddd;
+	box-shadow: 0 1px 0 #fff, inset 0 0 5px #ddd;
+}
+
+input.bb_button, button.bb_button{
+	*width: auto; /* IE7 Fix */
+	*overflow: visible; /* IE7 Fix */
+}
+
+.bb_button img{
+	border: none;
+	vertical-align: bottom;
+}
+
+
+
+.bb_button.bb_mini{
+	padding: 3px 5px;
+	font-size: 12px;
+	font-weight: normal;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.bb_button.bb_large{
+	padding: 12px 15px;
+	font-size: 20px;
+	font-weight: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ----- ---- --- -- -  Blue - -- --- ---- ----- */
+
+.bb_button.bb_blue{
+	background: #377ad0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#52a8e8), to(#377ad0));
+	background: -moz-linear-gradient(top, #52a8e8, #377ad0);
+	border: none;
+	color: #fff;
+	text-shadow: 0 1px 1px #4081af;
+	-webkit-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 1px #72b9eb;
+	-moz-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 1px #72b9eb;
+	box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 1px #72b9eb;
+}
+.bb_button.bb_blue:hover, .bb_button.bb_blue:focus{
+	background: #206bcb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e9ee5), to(#206bcb));
+	background: -moz-linear-gradient(top, #3e9ee5, #206bcb);
+	border-color: #2a73a6 #165899 #07428f;
+	-webkit-box-shadow: 0 1px 0 0 #fff, inset 0 1px 0 0 #62b1e9;
+	-moz-box-shadow: 0 1px 0 0 #fff, inset 0 1px 0 0 #62b1e9;
+	box-shadow: 0 1px 0 0 #fff, inset 0 1px 0 0 #62b1e9;
+}
+.bb_button.bb_blue:active{
+	background: #3282d3;
+	border-color: #154c8c #154c8c #0e408e;
+	text-shadow: 0 -1px 1px #1d62ab;
+	-webkit-box-shadow: 0 1px 0 0 #fff, inset 0 0 6px 3px #1657b5;
+	-moz-box-shadow: 0 1px 0 0 #fff, inset 0 0 6px 3px #1657b5;
+	box-shadow: 0 1px 0 0 #fff, inset 0 0 6px 3px #1657b5;
+}
+
+/* ----- ---- --- -- -  Green - -- --- ---- ----- */
+
+.bb_button.bb_green{
+	background-color: #5a9117;
+	color: #fff;
+	box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);    
+	border: none;
+
+}
+.bb_button.bb_green:hover, .bb_button.bb_green:focus{
+	background: #85b44c;
+}
+.bb_button.bb_green:active{
+	background: #7fbf4d;
+	border-color: #53961e;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #96d865;  
+}
+
+/* ----- ---- --- -- -  Red - -- --- ---- ----- */
+
+.bb_button.bb_red{
+	background: #e6433d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8674b), to(#d54746));
+	background: -moz-linear-gradient(top, #f8674b, #d54746);
+	border: none;
+	color: #fff;
+	text-shadow: 0 1px 1px #961a07;
+	-webkit-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;
+	-moz-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;
+	box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;    
+}
+.bb_button.bb_red:hover, .bb_button.bb_red:focus{
+	background: #dd3a37;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff7858), to(#cc3a3b));
+	background: -moz-linear-gradient(top, #ff7858, #cc3a3b);
+	border-color: #961a07;
+	-webkit-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ff9573;
+	-moz-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ff9573;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ff9573;    
+}
+.bb_button.bb_red:active{
+	background: #e6433d;
+	border-color: #961a07;
+	-webkit-box-shadow: 0 1px 0 #fff, inset 0 0 5px #961a07;
+	-moz-box-shadow: 0 1px 0 #fff, inset 0 0 5px #961a07;
+	box-shadow: 0 1px 0 #fff, inset 0 0 5px #961a07;
+}
+
+/* ----- ---- --- -- -  Orange - -- --- ---- ----- */
+
+.bb_button.bb_orange{
+	background: #ee8f1f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f5b026), to(#f48423));
+	background: -moz-linear-gradient(top, #f5b026, #f48423);
+	border-color: #e6791c #e6791c #d86f15;
+	color: #fff;
+	text-shadow: 0 1px 1px #b85300;
+	-webkit-box-shadow: 0 1px 2px #d7e9a4, inset 0 1px 0 #f8d898;
+	-moz-box-shadow: 0 1px 2px #d7e9a4, inset 0 1px 0 #f8d898;
+	box-shadow: 0 1px 2px #d7e9a4, inset 0 1px 0 #f8d898;    
+}
+.bb_button.bb_orange:hover, .bb_button.bb_orange:focus{
+	background: #e38512;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffbb33), to(#eb7b1a));
+	background: -moz-linear-gradient(top, #ffbb33, #eb7b1a);
+	border-color: #d0680c;
+	-webkit-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e;
+	-moz-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e;    
+}
+.bb_button.bb_orange:active{
+	background: #ee8f1f;
+	border-color: #d0680c;
+	-webkit-box-shadow: 0 1px 0 #fff, inset 0 0 5px #d0680c;
+	-moz-box-shadow: 0 1px 0 #fff, inset 0 0 5px #d0680c;
+	box-shadow: 0 1px 0 #fff, inset 0 0 5px #d0680c;
+}
+
+/* ----- ---- --- -- -  Grey - -- --- ---- ----- */
+
+.bb_button.bb_grey{
+	background: #969696;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ababab), to(#818181));
+	background: -moz-linear-gradient(top, #ababab, #818181);
+	border: none;
+	color: #fff;
+	text-shadow: 0 1px 1px #444;
+	-webkit-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #bebebe;
+	-moz-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #bebebe;
+	box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #bebebe;    
+}
+.bb_button.bb_grey:hover, .bb_button.bb_grey:focus{
+	background: #868686;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b0b0b0), to(#6f6f6f));
+	background: -moz-linear-gradient(top, #b0b0b0, #6f6f6f);
+	border-color: #666 #666 #606060;
+	-webkit-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #bebebe;
+	-moz-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #bebebe;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #bebebe;    
+}
+.bb_button.bb_grey:active{
+	background: #909090;
+	border-color: #606060;
+	-webkit-box-shadow: 0 1px 0 #fff, inset 0 0 5px #606060;
+	-moz-box-shadow: 0 1px 0 #fff, inset 0 0 5px #606060;
+	box-shadow: 0 1px 0 #fff, inset 0 0 5px #606060;
+}
+
+/* ----- ---- --- -- -  Black - -- --- ---- ----- */
+
+.bb_button.bb_black{
+	background: #525252;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e), to(#434343));
+	background: -moz-linear-gradient(top, #5e5e5e, #434343);
+	border-color: #4c4c4c #313131 #1f1f1f;
+	color: #fff;
+	text-shadow: 0 1px 1px #2e2e2e;
+	-webkit-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;
+	-moz-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;
+	box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;    
+}
+.bb_button.bb_black:hover, .bb_button.bb_black:focus{
+	background: #4b4b4b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#686868), to(#363636));
+	background: -moz-linear-gradient(top, #686868, #363636);
+	border-color: #313131;
+	-webkit-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #868686;
+	-moz-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #868686;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #868686;    
+}
+.bb_button.bb_black:active{
+	background: #525252;
+	border-color: #313131;
+	-webkit-box-shadow: 0 1px 0 #fff, inset 0 0 5px #313131;
+	-moz-box-shadow: 0 1px 0 #fff, inset 0 0 5px #313131;
+	box-shadow: 0 1px 0 #fff, inset 0 0 5px #313131;
+}
